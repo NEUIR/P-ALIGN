@@ -84,29 +84,29 @@ pip install -e ".[torch,metrics]"
 ```
 
 ## 🔧P-ALIGN Pipeline
-### 1、Response-Sampling
+
+### 1. Adaptive Prefix Truncation via Binary Search
 
 ```bash
-bash scripts/Response_sampling.sh 
+bash scripts/Prefix_truncation.sh 
 ```
 
-### 2、Self-Reflection
+### 2. Prefix-based Alignment
 
 ```bash
-bash scripts/Self-Reflection.sh 
+bash scripts/Prefix_alignment.sh 
 ```
 
-### 3、Training the model
-
+### 3.Inference
 
 ```bash
-bash scripts/sft.sh 
+bash scripts/Inference.sh 
 ```
 
 ### 4、Evaluation
 
-```python
-python src/eval_final.py
+```bash
+bash scripts/Evaluation.sh 
 ```
 
 
