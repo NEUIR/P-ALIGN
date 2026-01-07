@@ -6,13 +6,13 @@ This repository contains the source code for the paper: [Long-Chain Reasoning Di
 
 <p align="center">
   <a href="https://arxiv.org/pdf/xxxx.xxxxx">
-    <img src="https://img.shields.io/badge/arXiv-ORION-B31B1B?logo=arxiv&logoColor=white" alt="arXiv">
+    <img src="https://img.shields.io/badge/arXiv-P-ALIGN-B31B1B?logo=arxiv&logoColor=white" alt="arXiv">
   </a>
   <a href="https://huggingface.co/papers/xxxx.xxxxx">
-    <img src="https://img.shields.io/badge/HuggingFace-ORION-yellow?logo=huggingface" alt="HuggingFace-Paper">
+    <img src="https://img.shields.io/badge/HuggingFace-P-ALIGN-yellow?logo=huggingface" alt="HuggingFace-Paper">
   </a>
-  <a href="https://huggingface.co/qizheyanger/ORION">
-    <img src="https://img.shields.io/badge/HuggingFace-ORION-yellowgreen" alt="HuggingFace-ORION">
+  <a href="https://huggingface.co/qizheyanger/P-ALIGN">
+    <img src="https://img.shields.io/badge/HuggingFace-P-ALIGN-yellowgreen" alt="HuggingFace-P-ALIGN">
   </a>
 </p>
 
@@ -48,7 +48,7 @@ This repository contains the source code for the paper: [Long-Chain Reasoning Di
 </p>
 
   
-<!-- ![](figs/pipeline.png) -->
+<!-- ![](figs/pipeline-final.png) -->
 
 
 ## ⚙️Set Up
@@ -58,10 +58,10 @@ This repository contains the source code for the paper: [Long-Chain Reasoning Di
 Use git clone to download this project.
 
 ```bash
-conda create -n ORION python=3.10
-conda activate ORION
-git clone https://github.com/NEUIR/ORION.git
-cd ORION
+conda create -n P-ALIGN python=3.10
+conda activate P-ALIGN
+git clone https://github.com/NEUIR/P-ALIGN.git
+cd P-ALIGN
 pip install -r requirements.txt --force-reinstall --no-deps --no-cache-dir
 ```
 ### 2. Install LLaMA-Factory.
@@ -75,7 +75,7 @@ cd LLaMA-Factory
 pip install -e ".[torch,metrics]"
 ```
 
-## 🔧ORION Pipeline
+## 🔧P-ALIGN Pipeline
 ### 1、Response-Sampling
 
 ```bash
