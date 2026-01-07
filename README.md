@@ -9,10 +9,10 @@ This repository contains the source code for the paper: [Long-Chain Reasoning Di
     <img src="https://img.shields.io/badge/arXiv-ORION-B31B1B?logo=arxiv&logoColor=white" alt="arXiv">
   </a>
   <a href="https://huggingface.co/papers/xxxx.xxxxx">
-    <img src="https://img.shields.io/badge/HuggingFace-P-ALIGN-yellow?logo=huggingface" alt="HuggingFace-Paper">
+    <img src="https://img.shields.io/badge/HuggingFace-ORION-yellow?logo=huggingface" alt="HuggingFace-Paper">
   </a>
   <a href="https://huggingface.co/qizheyanger/P-ALIGN">
-    <img src="https://img.shields.io/badge/HuggingFace-P-ALIGN-yellowgreen" alt="HuggingFace-P-ALIGN">
+    <img src="https://img.shields.io/badge/HuggingFace-ORION-yellowgreen" alt="HuggingFace-P-ALIGN">
   </a>
 </p>
 
@@ -53,9 +53,7 @@ This repository contains the source code for the paper: [Long-Chain Reasoning Di
 
 
 <p align="center">
-  <a href="https://arxiv.org/pdf/xxxx.xxxxx">
-    <img src="figs/pipeline-final.pdf" >
-  </a>
+    <img src="figs/pipeline-final.png" >
 </p>
 
   
