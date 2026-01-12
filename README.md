@@ -87,11 +87,17 @@ pip install -e ".[torch,metrics]"
 
 ### 1. Adaptive Prefix Truncation via Binary Search
 
+To extract the most concise yet sufficient reasoning prefix from long chains of thought, we adopt a **binary search–based truncation** strategy.
+Specifically, the **student model performs self-evaluation** over different prefix lengths to determine whether the current prefix is sufficient to solve the problem, allowing us to efficiently identify the minimal effective reasoning prefix.
+
 ```bash
 bash scripts/Prefix_truncation.sh 
 ```
 
 ### 2. Prefix-based Alignment
+
+To better align long chains of thought with the reasoning capacity of the student model, we further apply a **prefix alignment** strategy.
+This step ensures that the retained prefix not only remains sufficient, but is also well-matched to the student model’s inference ability.
 
 ```bash
 bash scripts/Prefix_alignment.sh 
@@ -99,11 +105,16 @@ bash scripts/Prefix_alignment.sh
 
 ### 3.Inference
 
+During inference, we leverage **vLLM** to enable efficient and accelerated decoding, significantly improving inference speed while maintaining generation quality.
+
 ```bash
 bash scripts/Inference.sh 
 ```
 
 ### 4、Evaluation
+
+To validate the effectiveness of our approach, we evaluate model performance by matching generated outputs with ground-truth answers.
+We report **pass@1** and **pass@3** as the main evaluation metrics to measure overall reasoning performance.
 
 ```bash
 bash scripts/Evaluation.sh 
