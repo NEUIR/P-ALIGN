@@ -8,10 +8,10 @@ This repository contains the source code for the paper: [Long-Chain Reasoning Di
   <a href="https://arxiv.org/pdf/xxxx.xxxxx">
     <img src="https://img.shields.io/badge/arXiv-ORION-B31B1B?logo=arxiv&logoColor=white" alt="arXiv">
   </a>
-  <a href="https://huggingface.co/papers/xxxx.xxxxx">
+  <a href="https://huggingface.co/datasets/qizheyanger/P-ALIGN">
     <img src="https://img.shields.io/badge/HuggingFace-ORION-yellow?logo=huggingface" alt="HuggingFace-Paper">
   </a>
-  <a href="https://huggingface.co/qizheyanger/P-ALIGN">
+  <a href="https://huggingface.co/datasets/qizheyanger/P-ALIGN">
     <img src="https://img.shields.io/badge/HuggingFace-ORION-yellowgreen" alt="HuggingFace-P-ALIGN">
   </a>
 </p>
