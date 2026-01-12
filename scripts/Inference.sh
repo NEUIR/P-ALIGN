@@ -17,7 +17,7 @@ OUTPUT_FILES=(
 
 export CUDA_VISIBLE_DEVICES=6
 
-nohup python src/test_pro.py \
+nohup python src/test.py \
     --model "$MODEL_PATH" \
     --input_files "${INPUT_FILES[@]}" \
     --output_files "${OUTPUT_FILES[@]}" \
