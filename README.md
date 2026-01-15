@@ -85,7 +85,7 @@ pip install -e ".[torch,metrics]"
 
 ## 📊 Data Preparation
 
-### Raw Training and Evaluation Data
+### 1. Raw Training and Evaluation Data
 
 Due to licensing restrictions, we do not redistribute the original training and evaluation datasets.  
 Please refer to the `data/` directory for instructions on how to download and organize the raw data.
@@ -95,6 +95,11 @@ data/
 ├── raw/      # Instructions for obtaining original datasets
 └── results/  # Model inference and evaluation results
 ```
+### 2. Processed Data Release
+To facilitate quick reproduction of our experiments, we release the processed data used in our method on 
+
+
+
 
 
 ## 🔧P-ALIGN Pipeline
