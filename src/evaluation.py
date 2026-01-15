@@ -146,12 +146,7 @@ def evaluate_jsonl(input_file: str,
     
     print(f"pass@3: {pass_at_n:.4f}")
     print(f"acc@3: {avg_answer_acc:.4f}")
-
-    
-    # avg_acc = sum(sum(r.get("label", [])) / max(len(r.get("label", [])), 1) for r in results) / total
-
-    # print(f"pass@n: {pass_at_n:.4f}")
-    # print(f"average accuracy: {avg_acc:.4f}")
+    print(f"pass@1=acc@1: {pass_at_1:.4f}")
 
 if __name__ == "__main__":
 
