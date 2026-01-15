@@ -83,6 +83,20 @@ cd LLaMA-Factory
 pip install -e ".[torch,metrics]"
 ```
 
+## 📊 Data Preparation
+
+### Raw Training and Evaluation Data
+
+Due to licensing restrictions, we do not redistribute the original training and evaluation datasets.  
+Please refer to the `data/` directory for instructions on how to download and organize the raw data.
+
+```text
+data/
+├── raw/      # Instructions for obtaining original datasets
+└── results/  # Model inference and evaluation results
+```
+
+
 ## 🔧P-ALIGN Pipeline
 
 ### 1. Adaptive Prefix Truncation via Binary Search
