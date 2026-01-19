@@ -5,7 +5,7 @@ This repository contains the source code for the paper: [Long-Chain Reasoning Di
 
 
 <p align="center">
-  <a href="https://arxiv.org/pdf/xxxx.xxxxx">
+  <a href="https://arxiv.org/pdf/2601.10064">
     <img src="https://img.shields.io/badge/arXiv-ORION-B31B1B?logo=arxiv&logoColor=white" alt="arXiv">
   </a>
   <a href="https://huggingface.co/datasets/qizheyanger/P-ALIGN">
@@ -17,7 +17,7 @@ This repository contains the source code for the paper: [Long-Chain Reasoning Di
 </p>
 
 <!-- <p align="center">
-  <a href="https://arxiv.org/pdf/xxxx.xxxxx">
+  <a href="https://arxiv.org/pdf/2601.10064">
     <img src="https://img.shields.io/badge/arXiv-ORION-B31B1B?logo=arxiv&logoColor=white" alt="arXiv">
   </a>
   <a href="https://huggingface.co/papers/xxxx.xxxxx">
