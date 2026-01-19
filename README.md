@@ -36,12 +36,6 @@ This repository contains the source code for the paper: [Long-Chain Reasoning Di
 • 🎯 [Overview](#overview) 
 • ⚙️ [Set Up](#Set-Up)
 • 🔧 [Reproduction Guide](#reproduction-guide)
-</p>
-<p align="center" dir="auto">
-
-• ✈️ [Experimental Result](#experimental-result) 
-• 📃 [Acknowledgement](#acknowledgement) 
-• 📝 [Citation](#citation)
 • 📨 [Contact](#contact)
 </p>
 </div>
