@@ -35,7 +35,7 @@ This repository contains the source code for the paper: [Long-Chain Reasoning Di
 
 • 🎯 [Overview](#overview) 
 • ⚙️ [Set Up](#Set-Up)
-• 🔧 [Reproduction Guide](#P-ALIGN Pipeline)
+• 🔧 [Reproduction Guide](#P-ALIGN)
 • 📨 [Contact](#contact)
 </p>
 </div>
