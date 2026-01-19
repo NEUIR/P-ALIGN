@@ -11,8 +11,8 @@ This repository contains the source code for the paper: [Long-Chain Reasoning Di
   <a href="https://huggingface.co/datasets/qizheyanger/P-ALIGN">
     <img src="https://img.shields.io/badge/HuggingFace-PALIGN-yellow?logo=huggingface" alt="HuggingFace-Paper">
   </a>
-  <a href="https://huggingface.co/datasets/qizheyanger/P-ALIGN">
-    <img src="https://huggingface.co/qizheyanger/P-ALIGN" alt="HuggingFace-P-ALIGN">
+  <a href="https://huggingface.co/qizheyanger/P-ALIGN">
+    <img src="https://img.shields.io/badge/HuggingFace-PALIGN-yellowgreen" alt="HuggingFace-P-ALIGN">
   </a>
 </p>
 
