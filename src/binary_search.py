@@ -109,7 +109,6 @@ Partial reasoning:
 # =====================
 def find_minimal_sufficient_prefix(question, sentences, sleep_sec=0.5):
     """
-    返回（保持与你旧代码一致）：
         sufficient_reasoning (str)
         prefix_len (int)
         is_sufficient (bool)
