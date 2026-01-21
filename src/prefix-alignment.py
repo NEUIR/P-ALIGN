@@ -92,9 +92,9 @@ def process_data(json_filename, file_name, llm, batch_size, tokenizer, sampling_
     print("✅ All data processed and saved successfully.")
     
 def main():
-    model="/data2/wuzhuoyang/model/Qwen3-14b"
-    json_filename = "/data2/wuzhuoyang/Draft/llm_based/data/draft_to_cot/qwen3-14b/output_results_part3_300.jsonl"
-    file_name = "/data2/wuzhuoyang/Draft/llm_based/data/cot/qwen3-14b-based-14b-cot/cot-3.jsonl"
+    model="your model path"
+    json_filename = "input file path"
+    file_name = "output file path"
     tokenizer = AutoTokenizer.from_pretrained(model, trust_remote_code=True)
     sampling_params = SamplingParams(n=1, temperature=0.6, top_p=0.9, repetition_penalty=1.05, max_tokens=32768)
     llm = LLM(model=model, gpu_memory_utilization=0.8, max_model_len=32768, trust_remote_code=True, tensor_parallel_size=1)
